@@ -14,6 +14,9 @@ In this case, we are given the row number r and the column number c, and we need
 
 Variation 2: Given the row number n. Print the n-th row of Pascal’s triangle.
 
+	Current element = prevElement * (rowNumber - colIndex) / colIndex
+
+
 Variation 3: Given the number of rows n. Print the first n rows of Pascal’s triangle.
 
-
+	Using variation 2 we create each row
